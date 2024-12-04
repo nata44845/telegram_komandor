@@ -1,0 +1,16 @@
+*.zip
+*.json
+*.csv
+
+/venv_komandor
+/.idea/*
+/**/.idea/*
+/**/**/.idea/*
+/__pycache__/*
+/**/__pycache__/*
+/**/**/__pycache__/*
+
+
+
+
+
