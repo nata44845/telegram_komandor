@@ -38,8 +38,6 @@ sudo systemctl status tbot.service
 Ссылка на дашбоард 
 http://195.19.93.83:8088/superset/dashboard/http1951993838088komandor/
 
-Пользователь, пароль user user
-
 ![dashboard](dashboard.png)
 
 Вывод, лучше всего себя показывает когорта января 2022
