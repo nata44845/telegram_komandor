@@ -17,10 +17,16 @@ pip install pyTelegramBotAPI
 Настройки бота на сервере
 [tbot.service](tbot.service)
 
+Поместить в /usr/lib/systemd/system
 ```
-sudo systemctl start bot.service
-sudo systemctl stop bot.service
-sudo systemctl status bot.service
+sudo systemctl daemon-reload
+sudo systemctl enable tbot.service
+```
+Команды запуска
+```
+sudo systemctl start tbot.service
+sudo systemctl stop tbot.service
+sudo systemctl status tbot.service
 ```
 
 # Когортный анализ
