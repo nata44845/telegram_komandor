@@ -1,0 +1,14 @@
+[Unit]
+Description=tg-bot
+After=multi-user.target
+
+[Service]
+User=root
+Group=root
+Type=simple
+Restart=always
+WorkingDirectory=/home/tbot
+ExecStart=/home/tbot/venv/bin/python3 tbot.py
+
+[Install]
+WantedBy=multi-user.target
